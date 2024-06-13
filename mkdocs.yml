@@ -1,0 +1,34 @@
+site_name: Software de Notas Estudantis
+site_url: https://software-de-notas-estudantis.com/
+nav: 
+- Sobre: index.md
+- Modelagem: casosdeuso.md
+- Protótipo: prototype.md
+- Aplicativo: app.md
+
+theme:
+ name: material
+ palette:
+   primary: indigo
+   secondary: amber
+   accent: amber
+ logo: assets/fepilogoph3.jpeg
+ favicon: assets/fepilogoph3.jpeg
+ icon: assets/fepilogoph3.jpeg
+ top: assets/fepilogoph3.jpeg
+ menu: assets/fepilogoph3.jpeg
+ extra:
+   homepage: assets/fepilogoph3.jpeg
+
+markdown_extensions:
+  - attr_list
+plugins:
+  - mkdocs-video:
+      is_video: True
+      video_muted: True
+      video_controls: True
+      css_style:
+        width: "50%"
+
+markdown_extensions:
+  - attr_list

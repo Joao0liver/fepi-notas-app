@@ -1,0 +1,1055 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://software-de-notas-estudantis.com/casosdeuso/">
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../prototype/">
+      
+      
+      <link rel="icon" href="../assets/fepilogoph3.jpeg">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
+    
+    
+      
+        <title>Modelagem - Software de Notas Estudantis</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#casos-de-uso" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Software de Notas Estudantis" class="md-header__button md-logo" aria-label="Software de Notas Estudantis" data-md-component="logo">
+      
+  <img src="../assets/fepilogoph3.jpeg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Software de Notas Estudantis
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Modelagem
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Software de Notas Estudantis" class="md-nav__button md-logo" aria-label="Software de Notas Estudantis" data-md-component="logo">
+      
+  <img src="../assets/fepilogoph3.jpeg" alt="logo">
+
+    </a>
+    Software de Notas Estudantis
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Modelagem
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-casos-de-uso-uml" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de Casos de Uso - UML
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glossario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glossário
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacao-dos-casos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especificação dos Casos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Especificação dos Casos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Funcionais
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacao-suplementar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especificação Suplementar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Especificação Suplementar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Não Funcionais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requisitos Não Funcionais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confiabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confiabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suportabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suportabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../prototype/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protótipo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../app/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Aplicativo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introdução
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Metodologia
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-de-casos-de-uso-uml" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagrama de Casos de Uso - UML
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#glossario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Glossário
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacao-dos-casos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especificação dos Casos
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Especificação dos Casos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Funcionais
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacao-suplementar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Especificação Suplementar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Especificação Suplementar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requisitos Não Funcionais
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Requisitos Não Funcionais">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#usabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Usabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confiabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Confiabilidade
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suportabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suportabilidade
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div><h1 id="casos-de-uso">Casos de Uso</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Os diagramas de casos de uso são um técnica de modelagem utilizada principalmente na engenharia de 
+software para descrever as interações entre um sistema e seus usuários ou outros sistemas, coletando, analisando e especificando suas funções (funcionais ou não).
+Fazem parte da UML (Unified Modelling Language), uma linguagem que define uma série de artefatos e diagramas que nos ajudam na tarefa de modelar e documentar os sistemas orientados a objetos que desenvolvemos.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Como explicado anteriormente, o artefato utilizado foi o diagrama de casos de uso, integrante da UML. Utilizamos a abordagem padrão para sua criação, composta pelos atores, que representam os usuários e os casos de uso, que representam os requisitos funcionais da aplicação, ou seja, descrevem as ações e interações que o usuário pode realizar dentro do sistema. O software de modelagem utilizado foi o LucidChart. </p>
+<h2 id="diagrama-de-casos-de-uso-uml">Diagrama de Casos de Uso - UML</h2>
+<p><img alt="Screenshot" src="../img/diagramauc.jpeg"></p>
+<h2 id="glossario">Glossário</h2>
+<p><em>Tabela 1: Legenda do Diagrama de Casos de Uso</em></p>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Função</th>
+<th>Elemento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ator</td>
+<td>Bonecos palito que representam os usuários do sistema.</td>
+<td><img alt="Screenshot" src="../img/atorf.png"></td>
+</tr>
+<tr>
+<td>Caso de Uso</td>
+<td>Representa uma funcionalidade do sistema.</td>
+<td><img alt="Screenshot" src="../img/casodeuso.png"></td>
+</tr>
+<tr>
+<td>Sistema</td>
+<td>Forma retangular usada para representar o sistema ou uma porção dele.</td>
+<td><img alt="Screenshot" src="../img/sistema.png"></td>
+</tr>
+<tr>
+<td>Relações</td>
+<td>São usadas para representar as interações entre os usuários e os casos de uso (funcionalidades).</td>
+<td><img alt="Screenshot" src="../img/relacoes.png"></td>
+</tr>
+<tr>
+<td>Inclusão</td>
+<td>Tipo de relação que inclui um caso em outro, tornando a realização da funcionalidade inclusa obrigatória.</td>
+<td><img alt="Screenshot" src="../img/inclusao.png"></td>
+</tr>
+<tr>
+<td>Extensão</td>
+<td>Tipo de relação que transforma um caso como extensão de outro, contudo, essa relação não torna sua realização obrigatória.</td>
+<td><img alt="Screenshot" src="../img/extensao.png"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="especificacao-dos-casos">Especificação dos Casos</h2>
+<p>Nessa seção estão declaradas as especificações dos casos de uso (tabela 2 a 9).</p>
+<h3 id="requisitos-funcionais">Requisitos Funcionais</h3>
+<p><em>Tabela 2: Calcular a nota mínima necessária para ser aprovado</em></p>
+<table>
+<thead>
+<tr>
+<th>UC 01</th>
+<th>Calcular a nota mínima necessária para ser aprovado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O usuário deve ser capaz de calcular a nota mínima necessária para ser aprovado no bimestre.</td>
+</tr>
+<tr>
+<td><strong>Ator</strong></td>
+<td>Aluno Usuário</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Essencial</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Estar logado; Acesso à internet; Acesso ao app</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>Acessar o aplicativo (cadastro ou login), clicar na disciplina e inserir as notas para cálculo.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Nota mínima para ser aprovado no bimestre</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabela 3: Calcular a nota final com as notas do 1° e 2° bimestre</em></p>
+<table>
+<thead>
+<tr>
+<th>UC 02</th>
+<th>Calcular a nota final com as notas do 1° e 2° bimestre</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O usuário deve ser capaz de calcular a nota final para saber se ficou de exame final ou não.</td>
+</tr>
+<tr>
+<td><strong>Ator</strong></td>
+<td>Aluno Usuário</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Essencial</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Estar logado; Acesso à internet; Acesso ao app; Notas do 1° e 2° bimestre estarem lançadas</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>Acessar o aplicativo (cadastro ou login), clicar na disciplina e inserir as notas para cálculo.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Nota final do período</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabela 4: Calcular a nota mínima necessária para ser aprovado caso o aluno tenha ficado de exame final</em></p>
+<table>
+<thead>
+<tr>
+<th>UC 03</th>
+<th>Calcular a nota mínima necessária para ser aprovado caso o aluno tenha ficado de exame final</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O usuário deve ser capaz de calcular a nota mínima necessária para ser aprovado no período caso tenha ficado de exame final.</td>
+</tr>
+<tr>
+<td><strong>Ator</strong></td>
+<td>Aluno Usuário</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Essencial</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Estar logado; Acesso à internet; Acesso ao app; Notas do 1° e 2° bimestre estarem lançadas; Nota final estar lançada</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>Acessar o aplicativo (cadastro ou login), clicar na disciplina e inserir as notas para cálculo.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Nota mínima para ser aprovado no período</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabela 5: Salvar as notas de cada disciplina</em></p>
+<table>
+<thead>
+<tr>
+<th>UC 04</th>
+<th>Salvar as notas de cada disciplina</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O usuário deve ser capaz de salvar as notas de cada disciplina para eventuais consultas conforme são lançadas.</td>
+</tr>
+<tr>
+<td><strong>Ator</strong></td>
+<td>Aluno Usuário</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Média</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Estar logado; Acesso à internet; Acesso ao app; Notas individuais de cada disciplina</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>À definir.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Notas estarem salvas e de fácil acesso</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabela 6: Ver o status das disciplinas (cursando, aprovado, reprovado, ficou exame final)</em></p>
+<table>
+<thead>
+<tr>
+<th>UC 05</th>
+<th>Ver o status das disciplinas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O usuário deve ser capaz de visualizar o seu estado atual em cada disciplina.</td>
+</tr>
+<tr>
+<td><strong>Ator</strong></td>
+<td>Aluno Usuário</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Estar logado; Acesso à internet; Acesso ao app;</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>Acessar o aplicativo (cadastro ou login).</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Estar ciente de seu estado atual</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabela 7: Ver notas das disciplinas já cadastradas</em></p>
+<table>
+<thead>
+<tr>
+<th>UC 06</th>
+<th>Ver notas das disciplinas já cadastradas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O usuário deve ser capaz de visualizar as notas já lançadas no sistema.</td>
+</tr>
+<tr>
+<td><strong>Ator</strong></td>
+<td>Aluno Usuário</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Essencial</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Estar logado; Acesso à internet; Acesso ao app; Nota estar registrada no sistema</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>Acessar o aplicativo (cadastro ou login).</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Estar ciente de sua nota</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabela 8: Alterar notas já cadastradas</em></p>
+<table>
+<thead>
+<tr>
+<th>UC 07</th>
+<th>Alterar notas já cadastradas</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O usuário deve ser capaz de alterar as notas já cadastradas, caso haja algum erro, problema ou necessidade de mudança.</td>
+</tr>
+<tr>
+<td><strong>Ator</strong></td>
+<td>Funcionário da Universidade</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Estar logado; Acesso à internet; Acesso ao app; Nota estar cadastrada</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>À definir.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Nota ser alterada conforme a necessidade</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tabela 9: Excluir uma disciplina cadastrada</em></p>
+<table>
+<thead>
+<tr>
+<th>UC 08</th>
+<th>Excluir uma disciplina cadastrada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>O usuário deve ser capaz de excluir uma disciplina cadastrada no sistema.</td>
+</tr>
+<tr>
+<td><strong>Ator</strong></td>
+<td>Funcionário da Universidade</td>
+</tr>
+<tr>
+<td><strong>Prioridade</strong></td>
+<td>Baixa</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Estar logado; Acesso à internet; Acesso ao app; Disciplina estar cadastrada no sistema</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+<td>Acessar o aplicativo (cadastro ou login), clicar no ícone de lixeira acima da disciplina e confirmar exclusão.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Disciplina ser excluída dos registros</td>
+</tr>
+</tbody>
+</table>
+<h2 id="especificacao-suplementar">Especificação Suplementar</h2>
+<p>Nessa seção estão declaradas as especificações complementares do sistema, requisitos que se encontram dentre
+usabilidade, confiabilidade, desempenho e suportabilidade.</p>
+<h3 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h3>
+<h4 id="usabilidade">Usabilidade</h4>
+<p><em>Tabela 10: Requisitos de Usabilidade</em></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ES01</code></td>
+<td>O design deve ser claro e eficiente, de forma que o usuário consiga navegar pelo sistema facilmente.</td>
+</tr>
+<tr>
+<td><code>ES02</code></td>
+<td>O aplicativo deve ser acessível para usuários com deficiências.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="confiabilidade">Confiabilidade</h4>
+<p><em>Tabela 11: Requisitos de Confiabilidade</em></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ES03</code></td>
+<td>O usuário deve ter a possibilidade de alterar suas informações pessoais.</td>
+</tr>
+<tr>
+<td><code>ES04</code></td>
+<td>O aplicativo deve tratar os dados do usuário com responsabilidade.</td>
+</tr>
+<tr>
+<td><code>ES05</code></td>
+<td>Realizar backups regulares para evitar a perca significativa de dados.</td>
+</tr>
+<tr>
+<td><code>ES06</code></td>
+<td>Fornecer procedimentos de recuperação de conta.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="desempenho">Desempenho</h4>
+<p><em>Tabela 12: Requisitos de Desempenho</em></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ES07</code></td>
+<td>O aplicativo deve fornecer os cálculos de forma rápida e eficiente; preferencialmente inferior a 3 segundos.</td>
+</tr>
+<tr>
+<td><code>ES08</code></td>
+<td>O aplicativo deve ser capaz de  lidar  com o significativo aumento de tráfego simultâneo.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="suportabilidade">Suportabilidade</h4>
+<p><em>Tabela 13: Requisitos de Suportabilidade</em></p>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ES09</code></td>
+<td>O aplicativo deve ser compátivel com sistemas operacionais inferiores, de forma que consigam migrar para as novas sem dificuldade.</td>
+</tr>
+<tr>
+<td><code>ES10</code></td>
+<td>Deve possuir padrões de segurança reconhecidos, como o ISO 27001.</td>
+</tr>
+<tr>
+<td><code>ES11</code></td>
+<td>O aplicativo deve possuir apoio e suporte a problemas e dúvidas que possam ocorrer ao usuário.</td>
+</tr>
+</tbody>
+</table></div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
+      
+    
+  </body>
+</html>
